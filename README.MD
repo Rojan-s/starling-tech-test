@@ -93,19 +93,20 @@ This amount should then be transferred into a savings goal using the Starling Ba
    ```bash
    curl -X GET http://localhost:8080/api/accounts
    ```
-![screenshot](img/account.png)
+
+![screenshot](img/account.PNG)
 
 2. **Calculate Round-Up**:
    ```bash
    curl -X GET "http://localhost:8080/api/roundup/value?startDate=01012025"
    ```
-![screenshot](img/view.png)
+![screenshot](img/view.PNG)
 
 3. **Perform Round-Up**:
    ```bash
    curl -X GET "http://localhost:8080/api/roundup/perform?startDate=01012025"
    ```
-![screenshot](img/perform.png)
+![screenshot](img/perform.PNG)
 
 ---
 

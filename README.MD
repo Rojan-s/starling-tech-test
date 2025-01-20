@@ -1,7 +1,7 @@
 
 # Starling Bank Round-Up Feature
 
-his project is a java application which is designed to implement a round up feature for Starling Bank customers. 
+This project is a java application which is designed to implement a round up feature for Starling Bank customers. 
 As outlined we need to take all the transactions in a given week and round them up to the nearest
 pound. For example with spending of £4.35, £5.20 and £0.87, the round-up would be £1.58.
 This amount should then be transferred into a savings goal using the Starling Bank API.
@@ -155,6 +155,14 @@ This amount should then be transferred into a savings goal using the Starling Ba
 3. The primary account (`accountType: PRIMARY`) is used for transaction retrieval and round-up operations.
 4. A "week" is defined as a 7-day period starting from the provided `startDate`.
 5. The user is able to input any start date as they wish.
+
+## Code Quality
+
+### 🛠 **Google Checkstyle Compliance**
+My project adheres to the **Google Java Style Guide** through the integration of **Google Checkstyle**. Ensuring:
+- **Consistency**: Uniform coding style across the entire project.
+- **Readability**: Cleaner and more maintainable code for the reviewer.
+- **Professional Standards**: Alignment with industry best practices
 
 ## Testing
 The testing for this project was  conducted through self-testing by interacting with the REST API endpoints. This involved sending API requests to the 

@@ -155,6 +155,7 @@ This amount should then be transferred into a savings goal using the Starling Ba
 3. The primary account (`accountType: PRIMARY`) is used for transaction retrieval and round-up operations.
 4. A "week" is defined as a 7-day period starting from the provided `startDate`.
 5. The user is able to input any start date as they wish.
+6. User has enough balance for the round up feature
 
 ## Code Quality
 
